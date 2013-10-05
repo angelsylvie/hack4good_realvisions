@@ -1,6 +1,7 @@
 .spacer { margin-top: 20px; }
 body {
     padding-top: 60px;
+    background: url("../img/rough_diagonal.png") repeat;
 }
 .row-bottom {
     display: table-cell;
