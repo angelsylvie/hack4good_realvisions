@@ -1,10 +1,21 @@
 .spacer { margin-top: 20px; }
 body {
-    padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+    padding-top: 60px;
 }
 .row-bottom {
     display: table-cell;
     vertical-align: bottom;
     float: none;
     text-align: center;
+}
+
+.popup {
+    height: 30%;
+    width: 60%;
+    position: fixed;
+    top: 20%;
+    left: 15%;
+}
+.hidden {
+    visibility: hidden;
 }
